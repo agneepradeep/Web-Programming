@@ -1,0 +1,39 @@
+<!-- Create a toggle button that changes the screen to dark-mode when clicked & light-mode when clicked again -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 7 Practice 1</title>
+    <style>
+        .light{
+            background-color: white;
+            color: black;
+        }
+        .dark{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>AGNEEPRADEEP VERMA</h1>
+    <input type = "button" value = "MODE" id = "bt1">
+    <script>
+        let body =  document.querySelector("body")
+        let mode = "light"
+        let bt = document.querySelector("#bt1")
+        
+        bt.addEventListener("click", () => {
+            if(mode == "light"){
+                body.setAttribute("class","dark")
+                mode = "dark"
+            } else {
+                body.setAttribute("class","light")
+                mode = "light"
+            }
+        })
+
+    </script>
+</body>
+</html>
