@@ -1,0 +1,32 @@
+<!-- Create a <p> tag in htm,give it a class & some styling
+    Now create a new class in CSS and try to append this class to the <p> element
+    
+    Did you notice, how you overwrite the class name when you add a new one> Solve this problem using classList.
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 6 Pratice 4</title>
+    <style>
+        .paragraph{
+            color:blue;
+            background-color: aqua;
+        }
+        .newClass{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <p class = "paragraph">Agneepradeep Verma</p>
+
+    <script>
+        let para = document.querySelector("p")
+        //para.setAttribute("class","newClass") -->removes the background-color property
+        para.classList.add("newClass"); //Add new Class rather than replace with the existing class
+    </script>
+</body>
+</html>
