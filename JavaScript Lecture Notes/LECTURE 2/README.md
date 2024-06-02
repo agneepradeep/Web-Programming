@@ -120,4 +120,4 @@ console.log(canVote); // Yes
 ```
 ```
 
-This `README.md` file includes sections for comments, operators, conditional statements, and the ternary operator, along with explanations and code snippets. Save this content in a file named `README.md` in your project directory.
+This `README.md` file includes sections for comments, operators, conditional statements, and the ternary operator, along with explanations and code snippets.
