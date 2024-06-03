@@ -1,4 +1,3 @@
-```markdown
 # JavaScript Notes
 
 ## Comments
@@ -6,7 +5,7 @@
 - **Single Line Comment**
   ```javascript
   // This is a single line comment
-  ```
+
 
 - **Multi-Line Comment**
   ```javascript
